@@ -1,0 +1,8 @@
+[
+    { "id": 1, "title": "Movie" , "fileName": "movie.json"
+    },
+    { "id": 2, "title": "Series" , "fileName": "series.json"
+    },
+    { "id": 3, "title": "Originals" , "fileName": "original.json"
+    }
+]

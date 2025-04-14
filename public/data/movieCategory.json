@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Trending",
+    "symbol": "🔥",
+    "fileName":"trending.json"
+  },
+  {
+    "id": 2,
+    "title": "Animation",
+    "symbol": "🎬",
+    "fileName":"animation.json"
+  },
+  {
+    "id": 3,
+    "title": "Action",
+    "symbol": "⚔️",
+    "fileName":"action.json"
+  },
+  {
+    "id": 4,
+    "title": "Horror",
+    "symbol": "👻",
+    "fileName":"horror.json"
+  },
+  {
+    "id": 5,
+    "title": "Special",
+    "symbol": "⭐",
+    "fileName":"special.json"
+  },
+  {
+    "id": 6,
+    "title": "Drakor",
+    "symbol": "🌙",
+    "fileName":"drakor.json"
+  },
+  {
+    "id": 7,
+    "title": "Romance",
+    "symbol": "💖",
+    "fileName":"romance.json"
+  }
+]

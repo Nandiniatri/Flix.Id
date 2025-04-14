@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "The Incredibles",
+        "year": 2004,
+        "rating": 8.0,
+        "description": "A family of undercover superheroes tries to live quietly but must save the world.",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSsgYSLakxuAFLMceP6S8PPmxhUEl4tyo35Q&s"
+    },
+    {
+        "id": 2,
+        "title": "Toy Story",
+        "year": 1995,
+        "rating": 8.3,
+        "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy.",
+        "src": "https://m.media-amazon.com/images/I/51Y0CXYGFWL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Finding Nemo",
+        "year": 2003,
+        "rating": 8.2,
+        "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+        "src": "https://m.media-amazon.com/images/I/81y+4B1qUBL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Shrek",
+        "year": 2001,
+        "rating": 7.9,
+        "description": "An ogre, with a heart of gold, goes on a quest to rescue a princess.",
+        "src": "https://m.media-amazon.com/images/I/71sUgUhhUoL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 5,
+        "title": "The Lion King",
+        "year": 1994,
+        "rating": 8.5,
+        "description": "A lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death.",
+        "src": "https://m.media-amazon.com/images/I/71JDk-MWxIL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Up",
+        "year": 2009,
+        "rating": 8.3,
+        "description": "An old man ties thousands of balloons to his house and flies away to South America.",
+        "src": "https://m.media-amazon.com/images/I/91vnX5ZTf8L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Ratatouille",
+        "year": 2007,
+        "rating": 8.1,
+        "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+        "src": "https://m.media-amazon.com/images/I/91bJ9M2g5wL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Coco",
+        "year": 2017,
+        "rating": 8.4,
+        "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather.",
+        "src": "https://m.media-amazon.com/images/I/91RyyVU4x-L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Zootopia",
+        "year": 2016,
+        "rating": 8.0,
+        "description": "In a city of anthropomorphic animals, a bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+        "src": "https://m.media-amazon.com/images/I/71ilLVDRbCL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Frozen",
+        "year": 2013,
+        "rating": 7.4,
+        "description": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice, her sister Anna teams up with a mountain man to change the weather condition.",
+        "src": "https://m.media-amazon.com/images/I/71LZnnj1OOL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Inside Out",
+        "year": 2015,
+        "rating": 8.1,
+        "description": "After young Riley is uprooted from her Midwest life, her emotions conflict on how to navigate a new city and school.",
+        "src": "https://m.media-amazon.com/images/I/81BvZQGJ5YL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Despicable Me",
+        "year": 2010,
+        "rating": 7.6,
+        "description": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is changing him.",
+        "src": "https://m.media-amazon.com/images/I/71vnYbl4hCL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Kung Fu Panda",
+        "year": 2008,
+        "rating": 7.6,
+        "description": "To everyone's surprise, a clumsy panda becomes the chosen Dragon Warrior and trains to protect his people.",
+        "src": "https://m.media-amazon.com/images/I/81Gx6bnTUjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Moana",
+        "year": 2016,
+        "rating": 7.6,
+        "description": "In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.",
+        "src": "https://m.media-amazon.com/images/I/71e0aF-nxWL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 15,
+        "title": "The Secret Life of Pets",
+        "year": 2016,
+        "rating": 6.5,
+        "description": "The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes.",
+        "src": "https://m.media-amazon.com/images/I/81Z0FGGzHvL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Madagascar",
+        "year": 2005,
+        "rating": 6.9,
+        "description": "A group of animals from the Central Park Zoo escape and find themselves on the island of Madagascar.",
+        "src": "https://m.media-amazon.com/images/I/81q5knwBBdL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Tangled",
+        "year": 2010,
+        "rating": 7.7,
+        "description": "The magically long-haired Rapunzel has spent her entire life in a tower, but a runaway thief stumbles upon her and changes her life.",
+        "src": "https://m.media-amazon.com/images/I/81RYUoVVJDL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Brave",
+        "year": 2012,
+        "rating": 7.1,
+        "description": "Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom.",
+        "src": "https://m.media-amazon.com/images/I/71+g5Hutv-L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Big Hero 6",
+        "year": 2014,
+        "rating": 7.8,
+        "description": "A special bond develops between a plus-sized inflatable robot and a prodigy who join forces to save the city.",
+        "src": "https://m.media-amazon.com/images/I/71JfNBl7obL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Monsters, Inc.",
+        "year": 2001,
+        "rating": 8.1,
+        "description": "In a city of monsters, energy is collected from the screams of children. But things go wrong when a human child enters their world.",
+        "src": "https://m.media-amazon.com/images/I/81To7Z0Qy6L._AC_UF894,1000_QL80_.jpg"
+    }
+]

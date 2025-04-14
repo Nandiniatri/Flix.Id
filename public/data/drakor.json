@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Yobi, The Five Tailed Fox",
+        "year": 2007,
+        "rating": 6.9,
+        "description": "A mystical fox spirit named Yobi lives among humans and hides her identity while helping a boy.",
+        "src": "https://m.media-amazon.com/images/M/MV5BZTliNTJiMmItNWY5OC00ZjlkLWI4OWYtNmQ4ZDdlM2VjMTMwXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Leafie, A Hen into the Wild",
+        "year": 2011,
+        "rating": 7.1,
+        "description": "A brave hen escapes captivity to live in the wild and raise a duckling as her own.",
+        "src": "https://upload.wikimedia.org/wikipedia/en/1/18/Leafie_A_Hen_Into_the_Wild_poster_Korean.jpg"
+    },
+    {
+        "id": 3,
+        "title": "The King of Pigs",
+        "year": 2011,
+        "rating": 7.2,
+        "description": "Two men revisit their violent school days and the bullying that shaped them.",
+        "src": "https://m.media-amazon.com/images/I/51ZasAu8mOL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Green Days: Dinosaur and I",
+        "year": 2011,
+        "rating": 7.0,
+        "description": "A nostalgic story about a girl’s first love and growing up in rural Korea.",
+        "src": "https://upload.wikimedia.org/wikipedia/en/3/35/Green_Days-_Dinosaur_and_I.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Underdog",
+        "year": 2018,
+        "rating": 6.8,
+        "description": "A group of abandoned dogs escape and search for freedom in the wild.",
+        "src": "https://m.media-amazon.com/images/M/MV5BMzhlMDM2NTEtZTY4Ni00YmEyLTk2OWUtOWM2ZjhlYjlkYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Pororo, The Racing Adventure",
+        "year": 2013,
+        "rating": 5.9,
+        "description": "Pororo dreams of becoming a race car driver and competes in an international race.",
+        "src": "https://m.media-amazon.com/images/M/MV5BMjA2NzkzNDMyMl5BMl5BanBnXkFtZTgwMzEyMjEyMjE@._V1_.jpg"
+    },
+    {
+        "id": 7,
+        "title": "My Beautiful Girl, Mari",
+        "year": 2002,
+        "rating": 7.0,
+        "description": "A boy escapes to a dream world with a mysterious girl named Mari during a tough time in his life.",
+        "src": "https://m.media-amazon.com/images/M/MV5BMjA2NzkzNDMyMl5BMl5BanBnXkFtZTgwMzEyMjEyMjE@._V1_.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Aachi & Ssipak",
+        "year": 2006,
+        "rating": 6.3,
+        "description": "In a bizarre future, two street punks battle over a girl with powers related to energy production from poop.",
+        "src": "https://m.media-amazon.com/images/M/MV5BMTcxMDk5MTAzM15BMl5BanBnXkFtZTgwNTk0MTAwMTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Robot Taekwon V",
+        "year": 1976,
+        "rating": 6.6,
+        "description": "A Korean robot superhero fights to protect Earth, inspired by Taekwondo martial arts.",
+        "src": "https://upload.wikimedia.org/wikipedia/en/e/e1/Robot_Taekwon_V_1976.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Padak",
+        "year": 2012,
+        "rating": 6.7,
+        "description": "A mackerel from the ocean ends up in a tank with other fish, where she refuses to give up her dream of freedom.",
+        "src": "https://upload.wikimedia.org/wikipedia/en/e/e7/Swimming_to_Sea.jpg"
+    }
+]

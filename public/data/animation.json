@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Coco",
+        "year": 2017,
+        "rating": 8.4,
+        "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather.",
+        "src": "https://images.alphacoders.com/872/872456.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Toy Story 4",
+        "year": 2019,
+        "rating": 7.7,
+        "description": "When a new toy called Forky joins Woody and the gang, a road trip reveals how big the world can be for a toy.",
+        "src": "https://images.squarespace-cdn.com/content/v1/608d9ef497633c6b6eb71caf/1620678650997-JITJ1YYDDNI9V3KFIGS6/1343405.jpg"
+    },
+    {
+        "id": 3,
+        "title": "How to Train Your Dragon",
+        "year": 2010,
+        "rating": 8.1,
+        "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself.",
+        "src": "https://i.ytimg.com/vi/areTqrqBP-0/maxresdefault.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Zootopia",
+        "year": 2016,
+        "rating": 8.0,
+        "description": "In a city of anthropomorphic animals, a bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+        "src": "https://rukminim3.flixcart.com/image/850/1000/j87njww0/poster/q/q/y/large-movie-zootopia-judy-hopps-nick-wilde-on-hi-quality-large-original-imaesuuqnjzyjtvd.jpeg?q=90&crop=false"
+    },
+    {
+        "id": 5,
+        "title": "Ratatouille",
+        "year": 2007,
+        "rating": 8.1,
+        "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+        "src": "https://projectedrealities.wordpress.com/wp-content/uploads/2014/01/ratatouillec.jpg?w=640"
+    },
+    {
+        "id": 6,
+        "title": "Frozen II",
+        "year": 2019,
+        "rating": 6.8,
+        "description": "Anna, Elsa, Kristoff and Olaf are going far in the forest to learn the truth about an ancient mystery of their kingdom.",
+        "src": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/442/1410442-i-d09eeb4d01e7"
+    },
+    {
+        "id": 7,
+        "title": "Big Hero 6",
+        "year": 2014,
+        "rating": 7.8,
+        "description": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.",
+        "src": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/28E7988A1691861933024190FFF9EE73C340D3700AD6536E8215454365A7A5FF/scale?width=1200&aspectRatio=1.78&format=webp"
+    },
+    {
+        "id": 8,
+        "title": "The Incredibles",
+        "year": 2004,
+        "rating": 8.0,
+        "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "src": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/d7373f43-cd31-4ed7-beb6-f3236aca8b2f?/scale?width=1200&aspectRatio=1.78&format=webp"
+    },
+    {
+        "id": 9,
+        "title": "Kung Fu Panda",
+        "year": 2008,
+        "rating": 7.6,
+        "description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance.",
+        "src": "https://imageio.forbes.com/specials-images/imageserve/65f1c9a8a1f0a50b4a9b5957/-Kung-Fu-Panda-4--is-now-in-theaters-/0x0.jpg?format=jpg&crop=1500,1000,x164,y0,safe&width=960"
+    },
+    {
+        "id": 10,
+        "title": "Despicable Me",
+        "year": 2010,
+        "rating": 7.6,
+        "description": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him.",
+        "src": "https://media.assettype.com/newindianexpress%2F2024-07%2F995bf9d7-b551-433f-8d5d-b8b705bc7164%2Fdes.jpg?w=480&auto=format%2Ccompress&fit=max"
+    }
+]
