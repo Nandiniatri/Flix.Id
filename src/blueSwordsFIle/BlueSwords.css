@@ -4,7 +4,6 @@
     padding: 30px;
     justify-content: center; 
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 .banner {
@@ -28,4 +27,17 @@
     display: block;
     object-fit: cover;
     border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+    .container{
+        /* border: solid; */
+        display: flex;
+        flex-direction: row;
+
+    }
+    .banner{
+        /* border: solid red; */
+        width: 50%;
+    }
 }
