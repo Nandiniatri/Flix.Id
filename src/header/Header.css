@@ -67,15 +67,16 @@
     }
 } */
 
-/* 
+
 .header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px 20px;
+    padding: 15px 40px;
     font-family: 'Segoe UI', sans-serif;
-    gap: 40px;
+    gap: 120px;
 }
+
 
 .header-left {
     min-width: 100px;
@@ -84,98 +85,9 @@
 .header-center {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
     background-color: #0f1114;
-    padding: 8px 20px;
-    border-radius: 50px;
-    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
-}
-
-.header-center p {
-    margin: 0;
-    font-size: 14px;
-    color: white;
-    opacity: 0.8;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.header-center p:hover {
-    font-weight: bold;
-}
-
-.header-right {
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
-    align-items: center;
-}
-
-.search-input {
-    border: solid;
-    padding: 8px 12px;
-    font-size: 14px;
-    border: none;
-    border-radius: 25px;
-    outline: none;
-    background-color: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-    width: 150px;
-}
-
-
-@media (max-width: 576px) {
-    .header {
-       border: solid;
-       display: flex;
-       flex-direction: row;
-       gap: 0px;
-    }
-    .header-left {
-        min-width: 50px;
-    }
-    .header-left h2{
-        font-size: 15px;
-    }
-    .header-center {
-        padding: 8px 10px;
-    }
-    .header-center p {
-        margin: 0;
-        font-size: 10px;
-        color: white;
-        opacity: 0.8;
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-} */
- 
-
-/* Default Header Styling */
-.header {
-    display: flex;
-    justify-content: space-between;  /* Items ko space between rakhne ke liye */
-    align-items: center;  /* Vertically center alignment */
-    padding: 10px;
-    border: solid 1px red;  /* Visual testing ke liye border */
-    font-family: 'Segoe UI', sans-serif;
-    gap: 20px;  /* Spacing between elements */
-}
-
-/* Header Left Section */
-.header-left {
-    min-width: 100px;
-}
-
-/* Header Center Section */
-.header-center {
-    display: flex;
-    justify-content: center;
-    gap: 30px;  /* Spacing between center items */
-    align-items: center;
-    background-color: #0f1114; 
     padding: 10px 40px;
     border-radius: 50px;
     box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
@@ -194,7 +106,7 @@
     font-weight: bold;
 }
 
-/* Header Right Section */
+
 .header-right {
     display: flex;
     justify-content: flex-end;
@@ -215,39 +127,40 @@
     width: 200px;
 }
 
-/* Mobile Responsiveness for Screens < 576px */
+
 @media (max-width: 576px) {
     .header {
-        border: solid 1px red;  /* Border visual testing */
-        flex-direction: row;  /* Ensure items remain in row on small screens */
-        gap: 10px;  /* Reduce the gap between elements on small screens */
-        padding: 10px;  /* Add padding for better appearance */
-        justify-content: space-between;  /* Space between items */
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-between;
     }
 
     .header-left,
     .header-right {
         display: flex;
-        justify-content: center;  /* Center align the left and right sections */
-        width: auto;  /* Auto width to ensure it doesn't stretch unnecessarily */
+        justify-content: center;
+        width: auto;
+    }
+    .header-left h2{
+        /* border: solid; */
+        font-size: 15px;
     }
 
     .header-center {
-        width: auto;  /* Ensure it takes only necessary width */
-        padding: 8px 10px;  /* Adjust padding */
-        justify-content: space-evenly;  /* Evenly distribute items inside header center */
+        width: auto;
+        padding: 8px 8px;
+        justify-content: space-evenly;
     }
 
     .header-center p {
-        font-size: 12px;  /* Adjust font size for better readability */
+        font-size: 10px;
     }
 
     .search-input {
-        width: 100%;  /* Ensure the input field takes full width */
-        max-width: 250px;  /* Limit max-width for better appearance */
-        padding: 8px 12px;  /* Adjust input padding */
-        font-size: 12px;  /* Adjust font size */
+        width: 100%;
+        max-width: 250px;
+        padding: 8px 12px;
+        font-size: 12px;
     }
 }
-
-
