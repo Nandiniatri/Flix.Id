@@ -134,7 +134,10 @@
        gap: 0px;
     }
     .header-left {
-        min-width: 100px;
+        min-width: 50px;
+    }
+    .header-left h2{
+        font-size: 15px;
     }
 
 }
