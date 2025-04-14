@@ -129,6 +129,12 @@
 @media (max-width: 576px) {
     .header {
        border: solid;
+       display: flex;
+       flex-direction: row;
+       gap: 0px;
+    }
+    .header-left {
+        min-width: 100px;
     }
 
 }
