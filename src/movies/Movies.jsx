@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './Movies.css';
-import { headerCenterContext } from '../contextApi/UseHeadercenter';
+import { headerCenterContext } from '../contextApi/UseHeaderCenter';
 
 const Movies = () => {
   const { filterCategoryData } = useContext(headerCenterContext);

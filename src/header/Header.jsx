@@ -2,7 +2,7 @@ import { IoIosSearch } from "react-icons/io";
 // import { CiBellOn, CiUser } from "react-icons/ci";
 import './Header.css';
 import { useContext, useState } from "react";
-import { headerCenterContext } from "../contextApi/UseHeadercenter";
+import { headerCenterContext } from "../contextApi/UseHeaderCenter";
 import Input from "../components/Input";
 
 

@@ -1,4 +1,4 @@
-import { headerCenterContext } from '../contextApi/UseHeadercenter';
+import { headerCenterContext } from '../contextApi/UseHeaderCenter';
 import Movies from '../movies/Movies';
 import './movieCategory.css';
 import { useContext, useEffect, useState } from "react";
