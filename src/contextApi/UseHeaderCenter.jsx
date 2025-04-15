@@ -7,6 +7,13 @@ const UseHeaderCenterProvider = ({ children }) => {
     const [headerCenterData, setHeaderCenterData] = useState([]);
     const [movie, setMovie] = useState([]);
     const [inputValue, setInputValue] = useState('');
+    const [homeBlueSword , setHomeBlueSword] = useState([]);
+
+    const homeBlueSwordApi = async() => {
+        const response = await fetch(`/data/homeBlueSwords.json`);
+        const result = await response.json();
+        setHomeBlueSword(result);
+    }
 
     const handleInputValue = (event) => {
         console.log(event.target.value);
@@ -22,7 +29,7 @@ const UseHeaderCenterProvider = ({ children }) => {
     )
 
     const fetchMovieApi = async (fileName) => {
-        const response = await fetch(`/data/${fileName}`);
+        const response = await fetch(`/public/data/${fileName}`);
         const result = await response.json();
         setMovie(result);
     }
@@ -43,6 +50,7 @@ const UseHeaderCenterProvider = ({ children }) => {
         fetchMovieApi();
         fetchCenterData();
         fetchHeaderCenterData();
+        homeBlueSwordApi();
     }, [])
 
     return (
@@ -56,7 +64,8 @@ const UseHeaderCenterProvider = ({ children }) => {
             handleInputValue,
             inputValue,
             filterCategoryData,
-            centerDataFiltering
+            centerDataFiltering,
+            homeBlueSword
         }}>
             {children}
         </headerCenterContext.Provider>

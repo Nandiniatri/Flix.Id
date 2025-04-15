@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { headerCenterContext } from '../contextApi/UseHeaderCenter';
 import Movies from '../movies/Movies';
 import './movieCategory.css';
@@ -31,10 +32,12 @@ const MovieCategory = () => {
         <div className="movie-category-main-container">
             <div className="category-buttons">
                 {categories.map((item) => (
+                    <Link to={`/MovieCategory/${item.title}`} className="link">
                     <div className="category-button" key={item.id} onClick={() => handleMovieCategory(item.fileName)}>
                         <span className="category-icon">{item.symbol}</span>
                         <span className="category-text">{item.title}</span>
                     </div>
+                    </Link>
                 ))}
             </div>
 
