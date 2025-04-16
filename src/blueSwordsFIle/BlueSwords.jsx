@@ -5,6 +5,7 @@ import { headerCenterContext } from "../contextApi/UseHeaderCenter";
 
 const BlueSwords = () => {
     const { homeBlueSword } = useContext(headerCenterContext);
+    
     return (
         <div className="container">
             {homeBlueSword.map((item) => {

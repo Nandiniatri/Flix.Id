@@ -5,7 +5,7 @@
         "year": 1989,
         "rating": 8.7,
         "description": "The adventures of a dysfunctional family living in Springfield.",
-        "src": "https://m.media-amazon.com/images/I/91E0rI9nPLL._AC_UF894,1000_QL80_.jpg"
+        "src": "https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "year": 2013,
         "rating": 9.1,
         "description": "An animated series that follows the exploits of a mad scientist and his good-hearted but fretful grandson.",
-        "src": "https://m.media-amazon.com/images/I/91EvO5KFr5L._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "year": 2005,
         "rating": 9.3,
         "description": "A young boy and his friends travel across the world to defeat the evil Fire Nation and bring peace to the world.",
-        "src": "https://m.media-amazon.com/images/I/81lc1c-F-lL._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "year": 1999,
         "rating": 8.1,
         "description": "The misadventures of a talking sea sponge who works at a fast-food restaurant.",
-        "src": "https://m.media-amazon.com/images/I/71MNZbZqtsL._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "year": 2013,
         "rating": 4.3,
         "description": "The zany adventures of the Teen Titans, who are trying to have fun while fighting crime.",
-        "src": "https://m.media-amazon.com/images/I/81g2t+nT9yL._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "year": 2010,
         "rating": 8.6,
         "description": "The adventures of a boy named Finn and his best friend Jake, a shape-shifting dog with magical powers.",
-        "src": "https://m.media-amazon.com/images/I/91QQG+Tt9eL._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "year": 2012,
         "rating": 8.9,
         "description": "Twin siblings Dipper and Mabel Pines are sent to their great-uncle Stan's mysterious town for the summer.",
-        "src": "https://m.media-amazon.com/images/I/91J4wp-Md4L._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "year": 2005,
         "rating": 8.0,
         "description": "The adventures of two African-American children, Huey and Riley Freeman, in a mostly white suburban neighborhood.",
-        "src": "https://m.media-amazon.com/images/I/91z8u60iS8L._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "year": 2011,
         "rating": 8.0,
         "description": "The daily lives of a quirky family who run a hamburger restaurant.",
-        "src": "https://m.media-amazon.com/images/I/91sWqDZt8tL._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     },
     {
         "id": 10,
@@ -77,6 +77,6 @@
         "year": 1999,
         "rating": 8.4,
         "description": "The adventures of a slacker named Fry, who is frozen for 1,000 years and awakens in a futuristic world.",
-        "src": "https://m.media-amazon.com/images/I/91Ami5q9UOL._AC_UF894,1000_QL80_.jpg"
+        "src": ""
     }
 ]

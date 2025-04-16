@@ -4,4 +4,4 @@ const Image = ({ src, alt, onClick , className}) => {
     )
 }
 
-export default Image; 
+export default Image;  

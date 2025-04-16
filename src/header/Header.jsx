@@ -8,30 +8,45 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => {
-    const { fetchCenterData, headerCenterData, handleInputValue, inputValue } = useContext(headerCenterContext);
+    const { fetchCenterData, headerCenterData, handleInputValue, inputValue, homeBlueSwordApi, fetchMovieApi, showFixHeadingApi } = useContext(headerCenterContext);
     const [showInput, setShowInput] = useState(false);
+    const [selectedTitle, setSelectedTitle] = useState("");
+
+    const handleFlixId = () => {
+        homeBlueSwordApi("homeBlueSwords.json");
+        fetchMovieApi("trending.json")
+        // showFixHeadingApi('');
+    }
 
     const handleInputSearch = () => {
         setShowInput(true);
     }
 
-    const handleHeaderTitle = (fileName) => {
+    const handleHeaderTitle = (fileName, title, blueSwords, showFixHeading) => {
+        // console.log(blueSwords , showFixHeading);
         fetchCenterData(fileName);
+        setSelectedTitle(title);
+        homeBlueSwordApi(blueSwords);
+        showFixHeadingApi(showFixHeading);
     }
 
     return (
         <>
             <header className="header">
                 <div className="header-left">
-                    <h2>Flix.id</h2>
+                    <Link to={"Flix.id"} className="flixId-class" onClick={handleFlixId}><h2>Flix.id</h2></Link>
                 </div>
 
                 <div className="header-center">
                     {headerCenterData.map((itm) => {
                         return (
                             <>
-                                <Link to={`/movie/${itm.title}`} className="link">
-                                    <p onClick={() => handleHeaderTitle(itm.fileName)}>{itm.title}</p>
+                                <Link to={`/${itm.title}`} className="link">
+                                    <p onClick={() => handleHeaderTitle(itm.fileName, itm.title, itm.blueSwords, itm.showFixHeading)} style={{
+                                        color: selectedTitle === itm.title ? "white" : "white",
+                                        textDecoration: selectedTitle === itm.title ? "underline" : "none",
+                                        fontWeight: selectedTitle === itm.title ? "bold" : "normal"
+                                    }}>{itm.title}</p>
                                 </Link>
                             </>
                         )

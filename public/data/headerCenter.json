@@ -1,8 +1,8 @@
 [
-    { "id": 1, "title": "Movie" , "fileName": "movie.json"
+    { "id": 1, "title": "Movie" , "fileName": "movie.json" , "blueSwords":"movieBlueSwords.json" , "showFixHeading":"showFixMovieHead.json"
     },
-    { "id": 2, "title": "Series" , "fileName": "series.json"
+    { "id": 2, "title": "Series" , "fileName": "series.json" , "blueSwords":"seriesBlueSwords.json", "showFixHeading":"showFixSeriesHead.json"
     },
-    { "id": 3, "title": "Originals" , "fileName": "original.json"
+    { "id": 3, "title": "Originals" , "fileName": "original.json" , "blueSwords":"originalBlueSwords.json", "showFixHeading":"showFixOriginalHead.json"
     }
-]
+] 

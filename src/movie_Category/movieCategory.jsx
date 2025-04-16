@@ -7,10 +7,12 @@ import { useContext, useEffect, useState } from "react";
 const MovieCategory = () => {
     const [categories, setCategories] = useState([]);
     const { centerData, movie, setMovie, fetchMovieApi, centerDataFiltering } = useContext(headerCenterContext);
+    const [selectedTitle, setSelectedTitle] = useState("");
 
     //ye to handleMovieCategory hai-----------------------
-    const handleMovieCategory = (fileName) => {
+    const handleMovieCategory = (fileName, title) => {
         fetchMovieApi(fileName);
+        setSelectedTitle(title)
     }
 
     const fetchMovieCategoryApi = async () => {
@@ -22,6 +24,7 @@ const MovieCategory = () => {
     useEffect(() => {
         fetchMovieCategoryApi();
         fetchMovieApi('trending.json');
+        setSelectedTitle("Trending");
     }, []);
 
     useEffect(() => {
@@ -32,11 +35,18 @@ const MovieCategory = () => {
         <div className="movie-category-main-container">
             <div className="category-buttons">
                 {categories.map((item) => (
-                    <Link to={`/MovieCategory/${item.title}`} className="link">
-                    <div className="category-button" key={item.id} onClick={() => handleMovieCategory(item.fileName)}>
-                        <span className="category-icon">{item.symbol}</span>
-                        <span className="category-text">{item.title}</span>
-                    </div>
+                    <Link to={`/MovieCategory/${item.title}`} className="link" key={item.id}>
+                        <div
+                            className="category-button"
+                            onClick={() => handleMovieCategory(item.fileName, item.title)}
+                            style={{
+                                backgroundColor: selectedTitle === item.title ? "black" : "" ,
+                                fontWeight: selectedTitle === item.title ? "bold" : "normal"
+                            }}
+                        >
+                            <span className="category-icon">{item.symbol}</span>
+                            <span className="category-text">{item.title}</span>
+                        </div>
                     </Link>
                 ))}
             </div>
