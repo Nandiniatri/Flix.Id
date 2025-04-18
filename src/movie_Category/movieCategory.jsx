@@ -35,7 +35,7 @@ const MovieCategory = () => {
         <div className="movie-category-main-container">
             <div className="category-buttons">
                 {categories.map((item) => (
-                    <Link to={`/MovieCategory/${item.title}`} className="link" key={item.id}>
+                    <Link to={`/${item.title}`} className="link" key={item.id}>
                         <div
                             className="category-button"
                             onClick={() => handleMovieCategory(item.fileName, item.title)}

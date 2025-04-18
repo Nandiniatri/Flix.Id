@@ -16,7 +16,7 @@ function App() {
           {/* <Route path='*' element={<Header />} /> */}
           {/* <Route path='/movie/:fileName' element={<Header />} /> */}
           <Route path='*' element={<MovieCategory />} />
-          <Route path='/MovieCategory/:title' element={<MovieCategory />} />
+          <Route path='/:title' element={<MovieCategory />} />
         </Routes>
       </div>
     </BrowserRouter>

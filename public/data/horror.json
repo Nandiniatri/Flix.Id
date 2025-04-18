@@ -5,7 +5,8 @@
         "year": 2009,
         "rating": 7.7,
         "description": "A girl discovers a secret door to an eerie alternate world that mirrors her own.",
-        "src": "https://m.media-amazon.com/images/I/81sf6HWzSdL._AC_UF1000,1000_QL80_.jpg"
+        "src": "https://m.media-amazon.com/images/I/81sf6HWzSdL._AC_UF1000,1000_QL80_.jpg",
+        "v": "https://youtu.be/q8fS1lbjHog?si=_1BFgIDObuzs1WQy"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "year": 2006,
         "rating": 6.6,
         "description": "Three kids discover that a creepy house in their neighborhood is actually alive.",
-        "src": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Monster_House_poster.jpg/220px-Monster_House_poster.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Monster_House_poster.jpg/220px-Monster_House_poster.jpg",
+        "v": "https://youtu.be/Z5PXd4RYPw4?si=1DNlRCa5gVSZaV5D"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "year": 2012,
         "rating": 7.0,
         "description": "A boy who can talk to ghosts must save his town from zombies and a centuries-old curse.",
-        "src": "https://musicart.xboxlive.com/7/43066400-0000-0000-0000-000000000002/504/image.jpg"
+        "src": "https://musicart.xboxlive.com/7/43066400-0000-0000-0000-000000000002/504/image.jpg",
+        "v": "https://youtu.be/hgwSpajMw3s?si=t4m9CrIN60uBGexY"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "year": 2012,
         "rating": 6.9,
         "description": "A young boy brings his beloved dog back to life, with spooky consequences.",
-        "src": "https://upload.wikimedia.org/wikipedia/en/a/a9/Frankenweenie_%282012_film%29_poster.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/en/a/a9/Frankenweenie_%282012_film%29_poster.jpg",
+        "v": "https://youtu.be/T3MhFiuuljg?si=YxRcm3Qk2T38MOz9"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "year": 2012,
         "rating": 7.1,
         "description": "Dracula runs a hotel for monsters, but things get chaotic when a human visits.",
-        "src": "https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_FMjpg_UX1000_.jpg"
+        "src": "https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_FMjpg_UX1000_.jpg",
+        "v": "https://youtu.be/n1gWuWZWT9w?si=CPO-KE1knZ8_RHi1"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "year": 2019,
         "rating": 5.8,
         "description": "The spooky Addams family faces challenges in a world that doesn’t understand them.",
-        "src": "https://upload.wikimedia.org/wikipedia/en/3/39/The_Addams_Family_%282019_film%29.png"
+        "src": "https://upload.wikimedia.org/wikipedia/en/3/39/The_Addams_Family_%282019_film%29.png",
+        "v": "https://youtu.be/ZAqsODCZuKU?si=FaSwURCcRWaMlYEV"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "year": 2005,
         "rating": 7.3,
         "description": "A shy groom accidentally proposes to a dead bride in the underworld.",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJb7xxtiRxJXAok7dUf4WvQsrB_fu-6oteg&s"
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJb7xxtiRxJXAok7dUf4WvQsrB_fu-6oteg&s",
+        "v": "https://youtu.be/AGACeWVdFqo?si=vSZBFI0yoYKK0mX2"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "year": 1998,
         "rating": 7.8,
         "description": "The gang reunites to solve a mystery involving real zombies on a spooky island.",
-        "src": "https://m.media-amazon.com/images/M/MV5BZWM4NDk4MDgtZTRmMy00MDg1LTkzY2UtMzliZjUzOTNlYjg2XkEyXkFqcGc@._V1_.jpg"
+        "src": "https://m.media-amazon.com/images/M/MV5BZWM4NDk4MDgtZTRmMy00MDg1LTkzY2UtMzliZjUzOTNlYjg2XkEyXkFqcGc@._V1_.jpg",
+        "v": ""
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "year": 1993,
         "rating": 8.0,
         "description": "Jack Skellington discovers Christmas and tries to bring it to Halloween Town.",
-        "src": "https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_.jpg"
+        "src": "https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_.jpg",
+        "v": ""
     },
     {
         "id": 10,
@@ -77,6 +86,7 @@
         "year": 2017,
         "rating": 4.8,
         "description": "A family gets turned into monsters by a witch and must find a way to reverse the curse.",
-        "src": "https://upload.wikimedia.org/wikipedia/en/7/71/Monster_Family_poster.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/en/7/71/Monster_Family_poster.jpg",
+        "v": ""
     }
 ]

@@ -12,18 +12,12 @@ const Movies = () => {
 
   const handleImages = (item) => {
     setIsModalOpen(true);
-    // const newData = [
-    //   { id: 1, link: 'https://youtu.be/9-LiOj-saa0?si=9eOfn-tDbZUKXJDn' }
-    // ]
-    // setShowData(newData);
     setShowData([item])
   }
 
   const handleClose = () => {
     setIsModalOpen(false);
   }
-
-  console.log(showData);
 
 
   return (
@@ -46,18 +40,11 @@ const Movies = () => {
       <div>
         <Modal isOpen={isModalOpen} isClose={handleClose}>
           <button onClick={handleClose}>Close</button>
-          {showData.map((items) => {
-            return (
-              <div>
-                {/* <video controls>
-                  <source src={items.link} />
-                </video> */}
-                <YouTube videoId={items.v} />
-                {/* <iframe src={items.link} title={items.title} allowFullScreen></iframe> */}
-                {/* <embed src={items.link}/> */}
-              </div>
-            )
-          })}
+          {showData.map((items) => (
+            <div className="youtube-video" key={items.id}>
+              <YouTube videoId={items.v} className="youtube-y" />
+            </div>
+          ))}
         </Modal>
       </div>
     </>
