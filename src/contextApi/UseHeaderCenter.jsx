@@ -10,7 +10,6 @@ const UseHeaderCenterProvider = ({ children }) => {
     const [homeBlueSword , setHomeBlueSword] = useState([]);
     const [showFixHeading , setShowFixHeading] = useState([]);
 
-
     const showFixHeadingApi = async(fileName) => {
         // const response = await fetch('/data/showFlixHeading.json');    
         const response = await fetch(`/data/${fileName}`); 
@@ -39,7 +38,7 @@ const UseHeaderCenterProvider = ({ children }) => {
     )
 
     const fetchMovieApi = async (fileName) => {
-        const response = await fetch(`/public/data/${fileName}`);
+        const response = await fetch(`/data/${fileName}`);  
         const result = await response.json();
         setMovie(result);
     }
@@ -57,12 +56,13 @@ const UseHeaderCenterProvider = ({ children }) => {
     }
 
     useEffect(() => {
-        fetchMovieApi();
-        fetchCenterData();
+        fetchMovieApi("trending.json");
+        fetchCenterData("centerData.json");
         fetchHeaderCenterData();
         homeBlueSwordApi("homeBlueSwords.json");
-        showFixHeadingApi();
-    }, [])
+        showFixHeadingApi("showFlixHeading.json");
+    }, []);
+    
 
     return (
         <headerCenterContext.Provider value={{
