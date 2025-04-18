@@ -1,8 +1,15 @@
-.link{
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link {
     text-decoration: none;
 }
 
-.flixId-class{
+.flixId-class {
     text-decoration: none;
     color: white;
 }

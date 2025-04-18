@@ -13,7 +13,7 @@ const ShowFixedHeadingData = () => {
                         <h2>{item.title}</h2>
                     </>
                 )
-            })}
+            })} 
         </div>
     )
 }

@@ -5,6 +5,14 @@ import Modal from '../components/Modal';
 import Image from '../components/Image';
 import YouTube from 'react-youtube';
 
+const opts = {
+  width: '100%',
+  height: '100%',
+  playerVars: {
+    autoplay: 1,
+  },
+};
+
 const Movies = () => {
   const { filterCategoryData } = useContext(headerCenterContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,7 +50,7 @@ const Movies = () => {
           <button onClick={handleClose}>Close</button>
           {showData.map((items) => (
             <div className="youtube-video" key={items.id}>
-              <YouTube videoId={items.v} className="youtube-y" />
+              <YouTube videoId={items.v} className="youtube-y" opts={opts} />
             </div>
           ))}
         </Modal>
@@ -53,5 +61,3 @@ const Movies = () => {
 
 export default Movies;
 
-
-{/* <iframe width="560" height="315" src="https://www.youtube.com/embed/9-LiOj-saa0?si=jFrgsLh5ff_bCMFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */ }

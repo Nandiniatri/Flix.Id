@@ -1,3 +1,7 @@
 .show-fix-heading-main-div{
-    text-align: center;
+    text-align: center; 
+    padding: 10px;
+}
+.show-fix-heading-main-div h2{
+    
 }
