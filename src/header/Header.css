@@ -139,20 +139,23 @@
 /* ========== Main Header ========== */
 .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 14px 28px;
-    background: rgba(15, 17, 20, 0.9);
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    align-items: center;
+    padding: 12px 32px;
+    background-color: #0f1114;  /* Dark background */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    border-bottom: 1px solid #222;  /* Light border */
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 /* ========== Left (Logo) ========== */
+.header-left {
+    flex: 1;
+}
+
 .header-left h2 {
     margin: 0;
     font-size: 22px;
@@ -166,9 +169,8 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    flex: 1;
-    flex-wrap: wrap;
-    margin: 10px 0;
+    flex: 2;  /* Take up more space */
+    margin: 0;
 }
 
 .header-center .link p {
@@ -196,10 +198,11 @@
 
 /* ========== Right (Search) ========== */
 .header-right {
+    flex: 1;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 12px;
-    flex-shrink: 0;
 }
 
 .search-icon {
@@ -225,36 +228,32 @@
 /* ========== Responsive Styles ========== */
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 12px 16px;
+        padding: 10px 20px;
     }
 
     .header-left {
-        width: 100%;
+        flex: 1;
+        text-align: left;
     }
 
     .header-center {
-        width: 100%;
-        justify-content: flex-start;
+        flex: 3;
         gap: 12px;
-        margin-top: 10px;
+        justify-content: flex-start;
     }
 
     .header-center .link p {
-        font-size: 13px;
-        padding: 5px 10px;
+        font-size: 14px;
+        padding: 4px 10px;
     }
 
     .header-right {
-        width: 100%;
+        flex: 1;
         justify-content: flex-end;
-        margin-top: 10px;
     }
 
     .search-input {
         width: 100%;
-        max-width: 100%;
         font-size: 13px;
         padding: 8px 12px;
     }
