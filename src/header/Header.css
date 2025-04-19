@@ -240,7 +240,7 @@
     }
 
     .header-center .link p {
-        font-size: 10px;
+        font-size: 11px;
         padding: 4px 10px;
     }
 
@@ -270,7 +270,7 @@
         gap: 0px;
         flex: 2; 
         margin: 0;
-        border: solid;
+        /* border: solid; */
     }
 }
 
