@@ -9,9 +9,9 @@ const ShowFixedHeadingData = () => {
         <div className="show-fix-heading-main-div">
             {showFixHeading.map((item) => {
                 return (
-                    <>
+                    <div key={item.id}>
                         <h2>{item.title}</h2>
-                    </>
+                    </div>
                 )
             })} 
         </div>

@@ -10,7 +10,7 @@ const BlueSwords = () => {
         <div className="container">
             {homeBlueSword.map((item) => {
                 return (
-                    <div className="banner">
+                    <div className="banner" key={item.id}>
                         <Image
                             src={item.src}
                             className="banner-image"

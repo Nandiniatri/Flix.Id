@@ -40,15 +40,15 @@ const Header = () => {
                 <div className="header-center">
                     {headerCenterData.map((itm) => {
                         return (
-                            <>
-                                <Link to={`/${itm.title}`} className="link">
+                            <div key={itm.id}>
+                                <Link to={`/${itm.title}`} className="link" key={itm.id}>
                                     <p onClick={() => handleHeaderTitle(itm.fileName, itm.title, itm.blueSwords, itm.showFixHeading)} style={{
                                         color: selectedTitle === itm.title ? "white" : "white",
                                         textDecoration: selectedTitle === itm.title ? "underline" : "none",
                                         fontWeight: selectedTitle === itm.title ? "bold" : "normal"
                                     }}>{itm.title}</p>
                                 </Link>
-                            </>
+                            </div>
                         )
                     })}
                 </div>
